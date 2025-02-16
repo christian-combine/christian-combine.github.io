@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roblox Revival</title>
+    <title>Login - Roblox Revival</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to Roblox Revival</h1>
+        <h1>Login</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="games.html">Games</a>
@@ -17,8 +17,14 @@
         </nav>
     </header>
     <main>
-        <h2>Bringing back the nostalgia!</h2>
-        <p>Join us to play classic Roblox games from 2015.</p>
+        <h2>Login to your account</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
     </main>
 </body>
 </html>
